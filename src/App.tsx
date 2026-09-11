@@ -87,7 +87,7 @@ function App() {
           </button>
 
           <a href="#home" className="brand">
-            <img src="/public/data/assets/logo-text.png" alt="Dev Stack" />
+            <img src="./public/data/assets/logo-text.png" alt="Dev Stack" />
             
 
           </a>
@@ -148,8 +148,7 @@ function App() {
           </div>
 
           <div className="hero-visual">
-            <img
-              src="/public/banner-stack.png"
+            <img src="./public/banner-stack.png"
               
               alt="Development Stack"
               className="banner-image"
@@ -295,7 +294,7 @@ function App() {
           <div className="footer-brand">
             <a href="#home" className="brand">
               <img
-                src="/public/data/assets/logo-text.png"
+                src="./public/data/assets/logo-text.png"
                 alt="Dev Stack"
               />
             </a>
