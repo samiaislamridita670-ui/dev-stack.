@@ -87,15 +87,11 @@ function App() {
           </button>
 
           <a href="#home" className="brand">
-            <img src="./public/data/assets/logo-text.png" alt="Dev Stack" />
-            
-
+            <img src="/logo-text.png" alt="Dev Stack" />
           </a>
 
           <nav
-            className={
-              menuOpen ? "nav-links mobile-open" : "nav-links"
-            }
+            className={menuOpen ? "nav-links mobile-open" : "nav-links"}
           >
             <a href="#home" onClick={() => setMenuOpen(false)}>
               Home
@@ -148,8 +144,8 @@ function App() {
           </div>
 
           <div className="hero-visual">
-            <img src="./public/banner-stack.png"
-              
+            <img
+              src="/banner-stack.png"
               alt="Development Stack"
               className="banner-image"
             />
@@ -188,16 +184,12 @@ function App() {
                         className="tech-icon"
                       />
 
-                      <span className="badge">
-                        {technology.badge}
-                      </span>
+                      <span className="badge">{technology.badge}</span>
                     </div>
 
                     <h3>{technology.name}</h3>
 
-                    <p className="description">
-                      {technology.description}
-                    </p>
+                    <p className="description">{technology.description}</p>
 
                     <div className="card-info">
                       <span>{technology.category}</span>
@@ -272,10 +264,7 @@ function App() {
                     </div>
 
                     <div className="remove-all-wrapper">
-                      <button
-                        className="remove-all"
-                        onClick={removeAll}
-                      >
+                      <button className="remove-all" onClick={removeAll}>
                         Remove All
                       </button>
                     </div>
@@ -285,18 +274,14 @@ function App() {
             </div>
           )}
         </section>
-
-              </main>
+      </main>
 
       {/* Footer */}
       <footer className="footer" id="contact">
         <div className="footer-content">
           <div className="footer-brand">
             <a href="#home" className="brand">
-              <img
-                src="./public/data/assets/logo-text.png"
-                alt="Dev Stack"
-              />
+              <img src="/logo-text.png" alt="Dev Stack" />
             </a>
 
             <p>
@@ -333,7 +318,7 @@ function App() {
 
           <div className="footer-column">
             <h4>PRODUCT</h4>
-            <a href="#Home">Home</a>
+            <a href="#home">Home</a>
             <a href="#technologies">Technologies</a>
             <a href="#projects">Projects</a>
           </div>
