@@ -8,22 +8,25 @@ Users can browse technologies, check their category, difficulty, rating, and bad
 
 - React
 - TypeScript
-- Tailwind CSS
 - React-Toastify
 - JSON
 - Vite
 - JavaScript ES6+
+- CSS3
 
 ## Features
 
 ### 1. Explore Technologies
+
 Users can browse different development technologies with their name, category, description, difficulty level, rating, and badge.
 
 ### 2. Build Your Own Stack
-Users can add technologies to their personal stack and see the selected technology count.
+
+Users can add technologies to their personal stack and see the selected technology count. Duplicate technologies cannot be added.
 
 ### 3. Stack Management
-Users can remove individual technologies or remove all selected technologies from their stack. Duplicate technologies cannot be added.
+
+Users can remove individual technologies or remove all selected technologies from their stack. Toast notifications provide feedback for add, duplicate, remove, and remove-all actions.
 
 ## React Questions & Answers
 
